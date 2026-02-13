@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(252, 234, 218);
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;            
+}
+.buno{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.buno img {
+    max-width: 90%;   
+    height: auto;     
+}
+h1 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+h2 {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+}
